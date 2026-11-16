@@ -25,6 +25,9 @@ The focus of this project was to eliminate the need for manual paper writing sig
   + Receives card information and displays them appropriately
 ![QAPASS 1602A](images/QAPASS_1602A.png)
 
+### Wiring Diagram
+![Wiring_Diagram](images/Penn-State-ID-Card-Reader_bb.png)
+
 ### Disclaimer
 The UID of a Penn State ID card was possible to display, but other data such as name and ID number were inaccessible. This was because such data is locked within Penn State University’s database, and to access this data, possession of the encryption key to gain entry to the database is required. However, doing so is out of reach and highly confidential<br><br>
 Furthermore, the original plan of data collection using the ESP8266 was never able to be fully implemented due to time constrictions of the project
