@@ -14,3 +14,14 @@ The focus of this project was to eliminate the need for manual paper writing sig
 + **PN532**
   + Uses radio waves to wirelessly communicate, also known as a RFID (Radio Frequency Identification Reader)
   + Supports devices with protocol ISO/IEC 1443 (The International Standard for Contactless Smart Cards and Near Field Communication Devices)
++ **ESP8266**
+  + Standalone microcontroller but used as Wi-Fi access for the purposes of this research as the Arduino Uno lacks such capability
+  + Exchanges data with the Arduino Uno using RX(Receiving) and TX(Transmitting) pins
++ **QAPASS 1602A**
+  + Receives character data and commands via a 4-bit or 8-bt parallel interface
+  + Can display symbols and letters, along with possessing a cursor for modifying
+  + Receives card information and displays them appropriately
+
+### Disclaimer
+The UID of a Penn State ID card was possible to display, but other data such as name and ID number were inaccessible. This was because such data is locked within Penn State University’s database, and to access this data, possession of the encryption key to gain entry to the database is required. However, doing so is out of reach and highly confidential
+
