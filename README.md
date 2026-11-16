@@ -6,7 +6,7 @@ The focus of this project was to eliminate the need for manual paper writing sig
 + **QAPASS 1602A 16x2 LCD Display**: Display Scanned Data
 + **ESP8266MOD**: Allow Connection to the Internet
 + **PN532 13.56MHz NFC/RFID Controller Breakout Board**: Scanner
-+ **Potentiometer**: Control of the Contrast of the Display Screen
++ **100kΩ Potentiometer**: Control of the Contrast of the Display Screen
 + **220Ω Resistor**: Provides Appropriate Voltage to Display Screen
 + **1kΩ & 2kΩ Resistors**: Provides proper voltage to the ESP8266
 + **Bread Board**: Hosts all components and wiring
